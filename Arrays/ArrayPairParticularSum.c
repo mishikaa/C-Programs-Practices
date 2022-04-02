@@ -9,13 +9,16 @@ int main()
 
     int arr[n];
     printf("Enter array elements:\n");
- for(int i=0;i<n;i++)
+ for(int i=0;i<n;i++) //Inputting array elements
  {
  scanf("%d",&arr[i]);
  }
+    
  printf("Enter the SUM x:\n");
  scanf("%d",&x);
-  int count=0;
+    
+  int count=0; //This counter is to check whether such pair exists or not
+    
     printf("Output:");
      for(int i=0;i<n;i++)
      {
