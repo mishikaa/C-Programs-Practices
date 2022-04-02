@@ -32,6 +32,7 @@ int main()
          }
          }
      }
+    
      if(count==0)
      {
          printf("-1\nNo valid pair exists.");
