@@ -8,23 +8,29 @@
 int main()
 {  
     int n;
+    
     printf("Input :\n");
     printf("Enter the size of array : ");
     scanf("%d",&n);
+    
     printf("\nEnter elements in array : ");
     int arr[n];
+    
     for(int i=0;i<n;i++)
     {
     scanf("%d",&arr[i]);
     }
+    
      printf("Find the ceiling of : ");
      int num;
      scanf("%d",&num);
 
      int ans = Findceil(arr,n,num); 
+    
      printf("Output :\n");
      printf("The given array is : ");
      printarray(arr,n);
+     
      printf("\nThe ceiling of %d is : %d",num,ans);
 
     return 0;
