@@ -90,6 +90,7 @@ for(int i=0;i<size;i++)
     printf("%d ",array[i]);
 }
 }
+
 //e)PRINTING THE SECOND LARGEST ELEMENT OF THE ARRAY
 void second_largest(int arr[])
 {
