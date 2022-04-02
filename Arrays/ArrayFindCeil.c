@@ -36,7 +36,7 @@ int main()
     return 0;
 }
 
-    int Findceil(int *arr,int n,int num)
+    int Findceil(int *arr , int n , int num)
     {
         for(int i=0;i<n;i++)
         {
